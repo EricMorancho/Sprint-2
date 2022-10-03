@@ -1,0 +1,25 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+
+.cuadrado{
+    width: auto;
+	height: 14rem;
+	margin-top: -13rem;
+    margin-left: 7rem;
+    border-radius: 200px 0px 0px 200px;
+}
+
+.cuadrado2{
+    width: auto;
+	height: 14rem;
+	margin-top: -10rem;
+    margin-left: -8rem;
+    margin-right: 13rem;
+    border-radius: 0px 200px 200px 0px;
+}
+
+$nav-link-color: black;
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
