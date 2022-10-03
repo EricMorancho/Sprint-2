@@ -1,58 +1,135 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./sass/main.css">
-    <title>Sprint 2 Ejercicio 1</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="./sass/main.css">
+  <title>Sprint 2 Ejercicio 1</title>
 </head>
+
 <body>
   <div class="container mb-5">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./Imagenes/logo-bookmark.svg" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">FEATURES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">PRICING</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
-              <li class="nav-item">
-                <button class="btn btn-secondary text-white" type="button">LOGIN</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-    
-      <div class="container d-flex">
-        <div class="row">
-          <div class="col-12 col-lg-5 mt-5 order-2 order-lg-1">
-            <div class="text-center text-lg-start ms-lg-3">
-              <h1>A SIMPLE BOOKMARK MANAGER</h1>
-              <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia odit, repudiandae quae odio maxime architecto alias. Voluptatibus, explicabo earum quas omnis, laboriosam nihil quasi similique dolor veniam nisi non accusamus.</P>
-              <a href="#"><button class="btn btn-primary" type="submit">Get it on Chrome</button></a>
-              <a href="#"><button type="button" class="btn btn-outline-light text-dark">Get it on Firefox</button></a>
-            </div>
-          </div>
-          <div class="col-12 col-lg-7 order-1 order-lg-2">
-            <img src="./Imagenes/illustration-hero.svg" alt="Hero" class="img-fluid">
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./Imagenes/logo-bookmark.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">FEATURES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRICING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-secondary text-white" type="button">LOGIN</button>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+  </div>
 
-  
+  <div class="container d-flex">
+    <div class="row">
+      <div class="col-12 col-lg-5 mt-5 order-2 order-lg-1">
+        <div class="text-center text-lg-start ms-lg-3">
+          <h1>A SIMPLE BOOKMARK MANAGER</h1>
+          <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia odit, repudiandae quae odio maxime architecto alias. Voluptatibus, explicabo earum quas omnis, laboriosam nihil quasi similique dolor veniam nisi non accusamus.</P>
+          <a href="#"><button class="btn btn-primary" type="submit">Get it on Chrome</button></a>
+          <a href="#"><button type="button" class="btn btn-outline-light text-dark">Get it on Firefox</button></a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-7 order-1 order-lg-2">
+        <img src="./Imagenes/illustration-hero.svg" alt="Hero" class="img-fluid" id="img-hero">
+        <div class="cuadrado bg-primary"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center mt-5 mb-5">
+          <h1>FEATURES</h1>
+          <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nulla aspernatur cumque at nam ullam deserunt commodi? Reiciendis eum earum rerum distinctio sequi molestiae magni alias maiores. Illo, ipsa. Pariatur.</P>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="nav nav-tabs nav-justified mb-5" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">SIMPLE BOOKMARKING</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">SPEEDY SEARCHING</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">EASY SHARING</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div class="row d-flex">
+              <div class="col-7">
+                <img src="./Imagenes/illustration-features-tab-1.svg" alt="ilustracion pestaña 1" class="img-fluid ">
+                <div class="cuadrado2 bg-primary"></div>
+              </div>
+              <div class="col-5 mt-5">
+                <h3>BOOKMARK IN ONE CLICK</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, maiores magni, deserunt deleniti tenetur maxime numquam excepturi nesciunt saepe atque, perferendis ex similique aliquid quos culpa perspiciatis omnis. Sint, dolore.</p>
+                <button type="button" class="btn btn-primary">More info</button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div class="row d-flex">
+              <div class="col-7">
+                <img src="./Imagenes/illustration-features-tab-2.svg" alt="ilustracion pestaña 2" class="img-fluid ">
+                <div class="cuadrado2 bg-primary"></div>
+              </div>
+              <div class="col-5 mt-5">
+                <h3>INTELIGENCE SEARCH</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, maiores magni, deserunt deleniti tenetur maxime numquam excepturi nesciunt saepe atque, perferendis ex similique aliquid quos culpa perspiciatis omnis. Sint, dolore.</p>
+                <button type="button" class="btn btn-primary">More info</button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+            <div class="row d-flex">
+              <div class="col-7">
+                <img src="./Imagenes/illustration-features-tab-3.svg" alt="ilustracion pestaña 1" class="img-fluid ">
+                <div class="cuadrado2 bg-primary"></div>
+              </div>
+              <div class="col-5 mt-5">
+                <h3>SHARE YOUR BOOKMARKS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, maiores magni, deserunt deleniti tenetur maxime numquam excepturi nesciunt saepe atque, perferendis ex similique aliquid quos culpa perspiciatis omnis. Sint, dolore.</p>
+                <button type="button" class="btn btn-primary">More info</button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
 
 
 </body>

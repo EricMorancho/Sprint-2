@@ -1,4 +1,21 @@
 @charset "UTF-8";
+.cuadrado {
+  width: auto;
+  height: 14rem;
+  margin-top: -13rem;
+  margin-left: 7rem;
+  border-radius: 200px 0px 0px 200px;
+}
+
+.cuadrado2 {
+  width: auto;
+  height: 14rem;
+  margin-top: -10rem;
+  margin-left: -8rem;
+  margin-right: 13rem;
+  border-radius: 0px 200px 200px 0px;
+}
+
 /*!
  * Bootstrap  v5.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -3655,7 +3672,7 @@ textarea.form-control-lg {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: var(--bs-link-color);
+  --bs-nav-link-color: black;
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
   --bs-nav-link-disabled-color: #6c757d;
   display: flex;
