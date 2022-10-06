@@ -16,16 +16,41 @@
   border-radius: 0px 200px 200px 0px;
 }
 
-.navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item:hover .nav-link {
-  color: pink;
+.btn-primary:hover,
+.btn-primary.active {
+  color: #5265E1 !important;
+  background-color: white !important;
+  border: 1px solid #5265E1 !important;
 }
 
-.nav-item.active .btn-secondary,
-.nav-item:hover .btn-secondary {
+.btn-secondary.active,
+.btn-secondary:hover {
   color: #FA5959 !important;
   background-color: white !important;
   border: 1px solid #FA5959 !important;
+}
+
+.btn-outline-light.active,
+.btn-outline-light:hover {
+  color: #081daa !important;
+  background-color: white !important;
+  border: 1px solid #081daa !important;
+}
+
+.nav-link:hover {
+  color: #FA5959 !important;
+}
+
+.nav-link:focus {
+  border-bottom: 4px solid #FA5959 !important;
+}
+
+.accordion-button:hover {
+  color: #FA5959 !important;
+}
+
+.foot:hover {
+  color: red !important;
 }
 
 /*!
