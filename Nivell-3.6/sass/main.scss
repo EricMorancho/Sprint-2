@@ -25,6 +25,22 @@ $accordion-button-active-bg: none;
 $accordion-button-active-color: black;
 $accordion-icon-active-color: red;
 $accordion-button-focus-box-shadow: none;
+    
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: pink;
+}
+
+.nav-item.active .btn-secondary,
+.nav-item:hover .btn-secondary {
+    color: #FA5959!important;
+    background-color: white!important;
+    border: 1px solid #FA5959!important;
+}
+
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
