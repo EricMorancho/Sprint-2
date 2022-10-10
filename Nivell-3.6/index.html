@@ -244,12 +244,12 @@
 
       <div class="container">
         <form class="row needs-validation" novalidate>
-          <div class="col-12 col-lg-3 offset-lg-3 has-validation">
+          <div class="col-12 col-lg-3 offset-lg-3">
             <label for="exampleInputEmail1" class="form-label"></label>
             <input type="email" class="form-control" placeholder="Enter your email adress" id="exampleInputEmail1" aria-describedby="emailHelp" required>
             <div id="emailHelp" class="form-text"></div>
-            <div class="invalid-feedback">
-              Please enter a valid email.
+            <div class="invalid-feedback bg-secondary text-white">
+              <span class="ms-2">Please enter a valid email.</span> 
             </div>
           </div>
           <div class="col-12 col-lg-2 text-center text-lg-start mb-5 mt-2">
@@ -290,5 +290,25 @@
 
 
 </body>
-
+<script>
+  (function () {
+    'use strict'
+  
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+  
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+  
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()
+  </script>
 </html>
