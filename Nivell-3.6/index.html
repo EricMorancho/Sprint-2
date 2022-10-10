@@ -243,11 +243,14 @@
       </div>
 
       <div class="container">
-        <form class="row needs-validation">
-          <div class="col-12 col-lg-3 offset-lg-3">
+        <form class="row needs-validation" novalidate>
+          <div class="col-12 col-lg-3 offset-lg-3 has-validation">
             <label for="exampleInputEmail1" class="form-label"></label>
             <input type="email" class="form-control" placeholder="Enter your email adress" id="exampleInputEmail1" aria-describedby="emailHelp" required>
             <div id="emailHelp" class="form-text"></div>
+            <div class="invalid-feedback">
+              Please enter a valid email.
+            </div>
           </div>
           <div class="col-12 col-lg-2 text-center text-lg-start mb-5 mt-2">
             <button type="submit" class="btn btn-secondary w-100 text-white" id="contactButton">Contact Us</button>
@@ -260,7 +263,7 @@
   <div class="container bg-info">
     <div class="row text-center">
         <div class="col-12 offset-lg-1 col-lg-2 mb-3 mt-3">
-          <a href="#"><img src="./Imagenes/logo-bookmark.svg" alt="Bookmark Logo"></a>
+          <a href="#"><img class="bookmark-white" src="./Imagenes/logo-bookmark.svg" alt="Bookmark Logo"></a>
         </div>
         <div class="col-12  col-lg-1 mb-3 mt-3">
           <a href="#" class="text-center foot text-white text-decoration-none">FEATURES</a>
@@ -272,10 +275,10 @@
           <a href="#" class="text-center foot text-white text-decoration-none">CONTACT</a>
         </div>
         <div class="col-6 mb-3 mt-3 offset-lg-3 col-lg-1 text-end">
-          <a href="#" class="text-center foot"><img src="./Imagenes/icon-facebook.svg" alt="twitter logo"></a>
+          <a href="#" class="text-center facebook-red"><img src="./Imagenes/icon-facebook.svg" alt="facebook logo"></a>
         </div>
         <div class="col-6 col-lg-1 mb-3 mt-3 pt-1 text-start">
-          <a href="#" class="text-center foot"><img src="./Imagenes/icon-twitter.svg" alt="Facebook logo"></a>
+          <a href="#" class="text-center twitter-red"><img src="./Imagenes/icon-twitter.svg" alt="twitter logo"></a>
         </div>
         
 
