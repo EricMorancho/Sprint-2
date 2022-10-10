@@ -1,0 +1,81 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+$info: #081daa;
+
+.cuadrado{
+    width: auto;
+	height: 14rem;
+	margin-top: -13rem;
+    margin-left: 7rem;
+    border-radius: 200px 0px 0px 200px;
+}
+
+.cuadrado2{
+    width: auto;
+	height: 14rem;
+	margin-top: -10rem;
+    margin-left: -8rem;
+    margin-right: 13rem;
+    border-radius: 0px 200px 200px 0px;
+}
+
+$nav-link-color: black;
+    
+$accordion-button-active-bg: none;
+$accordion-button-active-color: black;
+$accordion-icon-active-color: red;
+$accordion-button-focus-box-shadow: none;
+    
+
+.btn-primary:hover,
+.btn-primary.active{
+    color: #5265E1!important;
+    background-color: white!important;
+    border: 1px solid #5265E1!important;
+}
+
+.btn-secondary.active,
+.btn-secondary:hover {
+    color: #FA5959!important;
+    background-color: white!important;
+    border: 1px solid #FA5959!important;
+}
+
+.btn-outline-light.active,
+.btn-outline-light:hover{
+    color: #081daa!important;
+    background-color: white!important;
+    border: 1px solid #081daa!important;
+}
+
+
+
+.nav-link:focus{
+    border-bottom: 4px solid #FA5959!important;
+}
+
+.accordion-button:hover,
+.foot:hover,
+.nav-link:hover{
+    color: #FA5959!important;
+}
+
+
+
+.facebook-red:hover .twitter-red:hover{
+    filter: invert(61%) sepia(32%) saturate(4372%) hue-rotate(318deg) brightness(89%) contrast(116%); 
+}
+
+
+.bookmark-white{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(109%) contrast(101%);
+}
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
