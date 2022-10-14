@@ -27,15 +27,23 @@ $accordion-icon-active-color: red;
 $accordion-button-focus-box-shadow: none;
     
 
-.btn-primary:hover,
-.btn-primary.active{
+.blue-button{
+    color: white!important;
+    background-color: #5265E1!important;
+}
+
+.blue-button:hover{
     color: #5265E1!important;
     background-color: white!important;
     border: 1px solid #5265E1!important;
 }
 
-.btn-secondary.active,
-.btn-secondary:hover {
+.orange-button{
+    color:white!important;
+    background-color: #FA5959!important;
+}
+
+.orange-button:hover {
     color: #FA5959!important;
     background-color: white!important;
     border: 1px solid #FA5959!important;
@@ -76,6 +84,8 @@ $accordion-button-focus-box-shadow: none;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(109%) contrast(101%);
 }
 
+
+$form-feedback-icon-invalid:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><g fill='none' fill-rule='evenodd'><circle cx='10' cy='10' r='10' fill='#FA5959'/><g fill='#FFF' transform='translate(9 5)'><rect width='2' height='7' rx='1'/><rect width='2' height='2' y='8' rx='1'/></g></g></svg>");
 
 
 
